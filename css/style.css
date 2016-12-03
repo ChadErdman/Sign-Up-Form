@@ -1,0 +1,281 @@
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+fieldset {
+  display: inline-block;
+  width: 95%;
+  border: #fff;
+  margin-left: 30px;
+}
+
+label {
+  display: inline-block;
+  font-weight: 600;
+  text-align: left;
+  float: left;
+  color: grey;
+  font-family: 'Trirong', serif;
+}
+
+p {
+  color: grey;
+  font-family: 'Trirong', serif;
+}
+
+legend {
+  visibility: hidden;
+}
+
+input:not(class="textfield") {
+  cursor: pointer;
+}
+
+.boxes input:checked {
+  border: thick solid #1e5180;
+}
+
+
+
+/* ==========================================================================
+                                   HEADING
+   ========================================================================== */
+
+
+
+:root {
+  text-align: center;
+  width: auto;
+}
+
+h1 {
+  height: 70px;
+  font-size: 1.3em;
+  background: black;
+  color: #fff;
+  margin: 0;
+  padding-top: 25px;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+}
+
+#about {
+  display: inline-block;
+  width: 90%;
+  height: 100px;
+  font-size: 1.1em;
+  margin-top: 30px;
+  margin-bottom: 3px;
+  border-bottom: thick solid black;
+}
+
+#title {
+  margin-top: 30px;
+  font-size: 1.4em;
+}
+
+h2:not([id="title"]) {
+  display: inline-block;
+  width: 95%;
+  text-align: left;
+  font-size: 1.4em;
+  padding-left: 2.5%;
+}
+
+
+
+/* ==========================================================================
+                                   FORM TOP
+   ========================================================================== */
+
+
+
+#state-field {
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  float: left;
+  font-style: italic;
+  color: grey;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+#state-field:focus {
+  outline: none;
+  border: medium solid teal;
+  color: #000;
+}
+
+select {
+  margin-left: 0;
+} 
+
+#top {
+  display: inline-block;
+  width: 90%;
+  margin: 0;
+  border-bottom: thick solid black;
+}
+
+#form-header {
+ display: inline-block;
+ width: 90%;
+ font-weight: 800;
+ padding-top: 55px;
+ margin-top: 0;
+ border-top: medium solid black;
+ font-family: 'Bitter', serif;
+}
+
+.contact-info {
+ display: inline-block;
+ width: inherit;
+ margin-top: 20px;
+}
+
+.text-field {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-style: italic;
+  text-align: left;
+  color: grey;
+  background: lightgrey;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+input.text-field:focus {
+  outline: none;
+  border: medium solid teal;
+  color: #000;
+}
+
+input {
+  text-align: left;
+}
+
+::-webkit-input-placeholder {
+   text-align: right;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: right;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: right;  
+}
+
+:-ms-input-placeholder {  
+   text-align: right; 
+}
+
+input[name*="user_zip"] {
+  width: 50%;
+}
+
+option {
+  color: black;
+}
+
+#container1 {
+  display: inline-block;
+  padding: 0 0 55px 0;
+}
+
+
+
+/* ==========================================================================
+                                   FORM BOTTOM
+   ========================================================================== */
+
+
+
+#form-bottom {
+  display: inline-block;
+  font-weight: 800;
+  padding-left: 2.5%;
+}
+
+#bottom {
+  display: inline-block;
+  width: 90%;
+}
+
+.box-headings {
+  display: inline-block;
+  width: 100%;
+  font-weight: bolder;
+  text-align: left;
+  margin: 30px 0;
+}
+
+.boxes {
+  display: inline-block;
+  margin: 10px 0 10px 0px; 
+}
+
+input.boxes:not([class="label.boxes"]) {
+  margin-top: 17.5px;
+  float: left;
+  clear: left;
+}
+
+textarea {
+  width: 99%;
+  height: 120px;
+  background: lightgrey;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  height: 80px;
+  font-size: 1.6em;
+  background: teal;
+  color: #fff;
+  margin-top: 40px;
+  font-family: 'Bitter', serif;
+  border: none;
+  border-radius: 5px;
+}
+
+#container2 {
+  display: inline-block;
+  padding: 0;
+}
+
+label.boxes {
+  margin-left: 20px;
+}
+
+
+
+/* ==========================================================================
+                                   FOOTER
+   ========================================================================== */
+
+
+
+#footer-text {
+  display: inline-block;
+  margin-top: 60px;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+}
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Chad Erdman | Project 3</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <h1>THE CODE REVIEW</h1>
+    <section id="main-heading">
+      <h2 id="title">Signup for our newsletter</h2>
+      <p id="about">Get the latest news on how your code is doing right in your inbox.</p>
+    </section>
+  </header>
+    <h2 id="form-header">Contact Information</h2>  
+    <form id="top" action="index.html" method="post">
+      <fieldset id="container1">
+        <legend>Contact Information</legend>
+        <label class="contact-info" for="1" >Full Name</label>
+        <input type="text" class="text-field" id="1" name="user_name" placeholder="Required" required>
+        <label class="contact-info" for="2" >Email Address</label>
+        <input type="email" class="text-field" id="2" name="user_email" placeholder="Required" required>
+        <label class="contact-info" for="3">Phone Number</label>
+        <input type="telephone" class="text-field" id="3" name="user_phone">
+        <label class="contact-info" for="4">Street Address</label>
+        <input type="text" class="text-field" id="4" name="user_address">
+        <label class="contact-info" for="5">City</label>
+        <input type="text" class="text-field" id="5" name="user_city"><br>
+        <label class="contact-info" for="state-field">State</label><br>
+        <select id="state-field" name="user_state">
+          <optgroup label="State">
+          <option>Choose State</option>
+          <option value="Alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+          <option value="Colorado">Colorado</option>
+          <option value="Connecticut">Connecticut</option>
+          <option value="Delaware">Delaware</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho">Idaho</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Indiana">Indiana</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Kentucky">Kentucky</option>
+          <option value="Louisiana">Louisiana</option>
+          <option value="Maine">Maine</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Massachusetts">Massachusetts</option>
+          <option value="Michigan">Michigan</option>
+          <option value="Minnesota">Minnesota</option>
+          <option value="Mississippi">Mississippi</option>
+          <option value="Missouri">Missouri</option>
+          <option value="Montana">Montana</option>
+          <option value="Nebraska">Nebraska</option>
+          <option value="Nevada">Nevada</option>
+          <option value="New Hampshire">New Hampshire</option>
+          <option value="New Jersey">New Jersey</option>
+          <option value="New Mexico">New Mexico</option>
+          <option value="New York">New York</option>
+          <option value="North Carolina">North Carolina</option>
+          <option value="North Dakota">North Dakota</option>
+          <option value="Ohio">Ohio</option>
+          <option value="Oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Rhode Island">Rhode Island</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="South Dakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Texas">Texas</option>
+          <option value="Utah">Utah</option>
+          <option value="Vermont">Vermont</option>
+          <option value="Virginia">Virginia</option>
+          <option value="Washington">Washington</option>
+          <option value="West Virginia">West Virginia</option>
+          <option value="Wisconsin">Wisconsin </option>
+          <option value="Wyoming">Wyoming</option>
+          </optgroup>
+        </select><br>    
+        <label class="contact-info" for="7">Zip Code</label>
+        <input type="text" class="text-field" id="7" name="user_zip">
+      </fieldset>
+    </form>
+      <h2 id="form-bottom">Newsletter</h2>
+      <form id="bottom" action="index.html" method="post">
+        <fieldset id="container2">
+          <legend>Newsletter</legend> 
+          <p class="box-headings">Select the newsletters you would like to recieve.</p><br>
+            <input type="checkbox" class="boxes" value="interest-html" name="html-news"><label class="boxes"><span>HTML-News</span></label><br>
+            <input type="checkbox" class="boxes" value="interest-html" name="css-news"><label class="boxes"><span>CSS-News</span></label><br>
+            <input type="checkbox" class="boxes" value="interest-html" name="javascript-news"><label class="boxes"><span>Javascript-News</span></label><br>
+          <p class="box-headings">Newsletter Format</p><br>
+            <input type="radio" class="boxes" value="interest-html" name="user-interest"><label class="boxes">HTML</label><br>
+            <input type="radio" class="boxes" value="interest-html" name="user-interest"><label class="boxes">Plain Text</label><br>
+          <p class="box-headings">Other topics you'd like to hear about</p>
+          <textarea name="user-interests"></textarea><br>
+          <button type="submit">Sign Up</button>
+        </fieldset>
+      </form>
+    <footer>
+      <p id="footer-text">Copyright The Code Review</p>
+    </footer>
+  </body> 
+</html>
+  
+  

@@ -1,0 +1,95 @@
+
+@media screen and (min-width: 760px) {
+
+  #top {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+  
+  #bottom {
+    display: inline-block;
+    width: 80%;
+    max-width: 80%;
+  }
+  
+  #container1 {
+    max-width: 78%;
+    margin-left: 3%;
+    padding-bottom: 0;
+  }
+  
+  #container2 {
+    display: block;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    padding-top: 18px;
+  }
+  
+  #title {
+    font-size: 1.6em;
+    margin-top: 50px;
+  }
+  
+  #about {
+    width: 80%;
+  }
+  
+  #form-header {
+    width: 80%;
+    padding-left: 0;
+    font-size: 1.6em;
+  }
+  
+  #form-bottom {
+    max-width: 80%;
+    font-size: 1.6em;
+    padding-top: 5%;
+    padding-left: 0;
+    margin-top: 50px;
+    border-top: thick solid black;
+  }
+  
+  label {
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  
+  .text-field {
+    width: 75%;
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  
+  #state-field {
+    width: 75%;
+    margin: 2px 0 0 1.5%;
+    padding-left: 15px;
+  }
+  
+  .contact-info {
+   display: inline;
+   text-align: left;
+   width: 22%;
+   height: 40px;
+  }
+  
+  .text-field:last-child {
+    float: left; 
+    margin-left: 1.5%;
+    width: 25%;
+  }
+  
+  .boxes {
+    margin-top: 0.75%;
+  }
+  
+  .box-headings {
+    font-size: 1.1em;
+  }
+  
+  
+}
