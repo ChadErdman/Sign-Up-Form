@@ -32,13 +32,11 @@ legend {
   visibility: hidden;
 }
 
-input:not(class="textfield") {
+input:not([class="textfield"]) {
   cursor: pointer;
 }
 
-.boxes input:checked {
-  border: thick solid #1e5180;
-}
+
 
 
 
@@ -120,7 +118,7 @@ select {
   margin-left: 0;
 } 
 
-#top {
+#main {
   display: inline-block;
   width: 90%;
   margin: 0;
@@ -208,11 +206,7 @@ option {
   display: inline-block;
   font-weight: 800;
   padding-left: 2.5%;
-}
-
-#bottom {
-  display: inline-block;
-  width: 90%;
+  margin-top: 5%;
 }
 
 .box-headings {
@@ -226,6 +220,11 @@ option {
 .boxes {
   display: inline-block;
   margin: 10px 0 10px 0px; 
+  cursor: pointer;
+}
+
+.boxes input:checked {
+  border: thick solid #1e5180;
 }
 
 input.boxes:not([class="label.boxes"]) {
@@ -242,6 +241,12 @@ textarea {
   border-radius: 5px;
 }
 
+textarea:focus {
+  outline: none;
+  border: medium solid teal;
+  color: #000;
+}
+
 button {
   width: 100%;
   height: 80px;
@@ -256,6 +261,7 @@ button {
 
 #container2 {
   display: inline-block;
+  width: 90%;
   padding: 0;
 }
 
